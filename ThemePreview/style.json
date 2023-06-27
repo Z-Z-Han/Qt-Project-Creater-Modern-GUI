@@ -1,0 +1,27 @@
+{
+    "ShowLogs": false,
+    "QSSFolder": "QSS",
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": [
+                        {
+                            "Background-color": "#242424",
+                            "Text-color": "#ffffff",
+                            "Accent-color": "#4fecec",
+                            "Icons-color": "#349c9c",
+                            "Theme-name": "Default-Theme",
+                            "Create-icons": true
+                        }
+                    ]
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "My app Organization",
+                "ApplicationName": "My App",
+                "OrginizationDormain": "myapp.com"
+            }
+        }
+    ]
+}
