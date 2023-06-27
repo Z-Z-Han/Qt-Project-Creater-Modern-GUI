@@ -1,0 +1,107 @@
+
+//===================================================//
+// FILE AUTO-GENERATED. PUT YOUR DEFAULT STYLES HERE. 
+// THESE STYLES WILL OVERIDE THE THEME STYLES
+//====================================================//
+
+*{
+	// border: none;
+	// background-color: transparent;
+	// background: transparent;
+	// padding: 0;
+	// margin: 0;
+	// color: $COLOR_TEXT_1;
+}
+
+#centralwidget, #header *, #footer *, #homePage, #scrollArea, #scrollAreaWidgetContents,
+#widget > *, #logo > *, #scrollArea_2, #widget_3, #widget_3 *, #scrollAreaWidgetContents_2, 
+#widget_6, #widget_7 > *, #widget_8, #widget_8 > *, #widget_9, #widget_9 > *, #widget_10, 
+#widget_10 > *, #widget_13, #widget_13 > *, #widget_11, #widget_11 > *, 
+#widget_12, #widget_12 > *{
+	background-color: transparent;
+	background: transparent;
+	border: none;
+}
+
+#header, #frame_2, #logo{
+	border-radius: 10px;
+}
+
+QMainWindow, QFileDialog, QColorDialog, #centralwidget, 
+#frame_2 > * > *, #widget_3, #widget_7, #to_page2,
+#back_to_page1, #to_page3, #to_page4, #back_to_page2,
+#back_to_page3, #to_page6, #back_to_page4, #back_to_page6,
+#selectLogoBtn, #iconsColor, #otherResourcesBtn,
+#uiFromLocalStorageBtn, #emptyUiTemplate, #moreTemplates,
+#pickIconColorBtn, #pickTextColorBtn, #pickBackgroundColorBtn,
+#pickAppAccentColorBtn{
+	background-color: $COLOR_BACKGROUND_1;
+}
+
+#headerContainer{
+	background-color: $COLOR_BACKGROUND_2;
+}
+
+#generateProjectBtn, #submitLoginBtn,#submitRegistrationBtn{
+	background-color: rgb(255, 146, 3);
+}
+
+#emptyUiTemplate{
+	border: 2px solid rgb(255, 146, 3);
+}
+QPushButton{
+	padding: 5px 7px;
+	border-radius: 8px;
+}
+
+QLineEdit{
+	// background-color: rgb(216, 216, 216);
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+#label_3, #label_10{
+	// background-color: rgb(255, 192, 0);
+	background-color: $COLOR_ACCENT_1;
+	padding: 100px;
+	// border-radius: 30px;
+	border-top-right-radius: 175px;
+	border-bottom-right-radius: 175px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+// #label_10{
+// 	border-top-right-radius: 175px;
+// 	border-bottom-right-radius: 175px;
+// 	border-top-left-radius: 0;
+// 	border-bottom-left-radius: 0;
+// }
+
+#widget{
+	// background-color: rgba(241, 241, 241, 100);
+	border-radius: 30px;
+}
+
+#supportBtn{
+	background-color: rgb(255, 146, 3);
+}
+
+#getStartedBtn{
+	// background-color: #d9d8da;
+}
+
+#logoImg{
+	border-radius: 25px;
+	background-color: $COLOR_ACCENT_1;
+}
+
+#pickIconColorBtn{
+	border-radius: 20px;
+	padding: 5px;
+}
+
+//===================================================//
+// END //
+//====================================================//
+            

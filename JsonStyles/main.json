@@ -1,0 +1,254 @@
+{
+    "QMainWindow": [
+        {
+            "tittle": "QT Project Creator",
+            "icon":":/images/images/logo.png",
+            "frameless": true,
+            "transluscentBg": true,
+            "sizeGrip": "sizeGrip",
+            "shadow":[
+                {
+                    "color": "#fff",
+                    "blurRadius": 20,
+                    "xOffset": 0,
+                    "yOffset": 0,
+                    "centralWidget": "centralwidget"
+                }
+            ],
+            "navigation":[
+                {
+                    "minimize":"minimizeBtn",
+                    "close": "closeBtn",
+                    "restore":[
+                        {   
+                            "buttonName": "restoreBtn",
+                            "normalIcon": ":/icons/Icons/square.png",
+                            "maximizedIcon": ":/icons/Icons/window_undock.png"
+                        }
+                    ],
+                    "moveWindow": "header",
+                    "tittleBar": "header"
+                }
+            ]
+        }
+    ],
+    "QCard": [
+        {
+            "cards": [
+                "widget",
+                "label_3"
+            ],
+            "shadow":[
+                {
+                    "color": "THEME.COLOR_ACCENT_3",
+                    "blurRadius": 5,
+                    "xOffset": 5,
+                    "yOffset": 0
+                }
+            ]
+        },
+         {
+            "cards": [
+                "widget_7",
+                "headerContainer"
+            ],
+            "shadow":[
+                {
+                    "color": "THEME.COLOR_ACCENT_3",
+                    "blurRadius": 5,
+                    "xOffset": 0,
+                    "yOffset": 5
+                }
+            ]
+        },
+         {
+            "cards": [
+                "tutorialsBtn",
+                "supportHBtn",
+                "resourcesBtn",
+                "templatesBtn",
+                "homeBtn",
+                "generateProjectBtn",
+                "loginBtn",
+                "supportBtn",
+                "getStartedBtn",
+                "to_page2",
+                "back_to_page1",
+                "to_page3",
+                "to_page4",
+                "to_page6",
+                "back_to_page2",
+                "back_to_page3",
+                "back_to_page4",
+                "back_to_page6",
+                "appName",
+                "orgDormain",
+                "orgName",
+                "selectLogoBtn",
+                "iconsColor",
+                "otherResourcesBtn",
+                "uiFromLocalStorageBtn",
+                "emptyUiTemplate",
+                "moreTemplates",
+                "pickIconColorBtn",
+                "pickTextColorBtn",
+                "pickBackgroundColorBtn",
+                "pickAppAccentColorBtn"
+            ],
+            "shadow":[
+                {
+                    "color": "THEME.COLOR_ACCENT_4",
+                    "blurRadius": 5,
+                    "xOffset": 0.5,
+                    "yOffset": 0.5
+                }
+            ]
+        }
+    ],
+    "QStackedWidget":[
+        {
+            "name":"userAccountPages",
+            "transitionAnimation":[
+                {
+                    "fade":[
+                        {
+                            "active": true,
+                            "duration":1000,
+                            "easingCurve": "OutBack"
+                        }
+                    ],
+                    "slide":[
+                        {
+                            "active":true,
+                            "duration": 1000,
+                            "direction": "horizontal",
+                            "easingCurve": "OutBack"
+                        }
+                    ]
+                }
+            ],
+            "navigation":[
+                {
+                    "navigationButtons":[
+                        {
+                            "to_login": "loginPage_2",
+                            "to_register": "registerPage"
+                        }
+                    ]
+                }
+            ]
+    
+        },
+        {
+            "name":"mainBodyPages",
+            "transitionAnimation":[
+                {
+                    "fade":[
+                        {
+                            "active": false,
+                            "duration":1000,
+                            "easingCurve": "OutBack"
+                        }
+                    ],
+                    "slide":[
+                        {
+                            "active":true,
+                            "duration": 1000,
+                            "direction": "horizontal",
+                            "easingCurve": "OutBack"
+                        }
+                    ]
+                }
+            ],
+            "navigation":[
+               {
+                    "navigationButtons":[
+                        {
+                            "loginBtn": "loginPage",
+                            "homeBtn": "homePage",
+                            "generateProjectBtn": "projectPage"
+                        }
+                    ]
+                }
+            ]
+    
+        },
+        {
+            "name":"projectWizardPages",
+            "transitionAnimation":[
+                {
+                    "slide":[
+                        {
+                            "active":true,
+                            "duration": 1000,
+                            "direction": "vertical",
+                            "easingCurve": "OutBack"
+                        }
+                    ]
+                }
+            ],
+            "navigation":[
+               {
+                    "navigationButtons":[
+                        {
+                            "back_to_page1": "page",
+                            "to_page3": "page_3",
+                            "to_page4": "page_4",
+                            "to_page6": "page_6",
+                            "back_to_page2": "page_2",
+                            "back_to_page3": "page_3",
+                            "back_to_page6": "page_6"
+                        }
+                    ]
+                }
+            ]
+    
+        }   
+    ],
+    "FormProgressIndicator": [
+        {
+            "name": "projectGeneratingFormProgress",
+            "formProgressCount": 5,
+            "formProgressAnimationDuration": 2000,
+            "formProgressAnimationEasingCurve": "OutBack",
+            "height": 40,
+            "width": 500,
+            "startPercentage": 20,
+            "inheritTheme": true
+        }
+    ],
+    "QCustomSlideMenu": [
+        {
+            "name": "sideMenu",
+            "defaultSize": [
+                {
+                    "width": 0,
+                    "height": "auto"
+                }
+            ],
+            "collapsedSize": [
+                {
+                    "width": 0,
+                    "height": "auto"
+                }
+            ],
+            "expandedSize": [
+                {
+                    "width": 200,
+                    "height": "auto"
+                }
+            ],
+            "toggleButton": [
+                {
+                    "buttonName": "menuBtn"
+                }
+            ],
+            "menuTransitionAnimation": [
+                {
+                    "animationDuration": 200,
+                    "animationEasingCurve": "Linear"
+                }
+            ]
+        }
+    ]
+}

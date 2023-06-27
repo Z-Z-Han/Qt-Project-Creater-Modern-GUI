@@ -1,0 +1,33 @@
+{
+    "ShowLogs": false,
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": [
+                        {
+                            "Background-color": "#f7f7f7",
+                            "Text-color": "#000",
+                            "Accent-color": "#ff9203",
+                            "Theme-name": "Light-Orange",
+                            "Default-Theme": true,
+                            "Icons-color": "#000"
+                        },
+                        {
+							"Background-color": "#343535",
+							"Text-color": "#fff",
+							"Accent-color": "#03C3C3",
+							"Theme-name": "Dark-Blue",
+							"Default-Theme": false
+						}
+                    ]
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "QT Project Creator",
+                "ApplicationName": "Spinn Co",
+                "OrginizationDormain": "spinn.co"
+            }
+        }
+    ]
+}

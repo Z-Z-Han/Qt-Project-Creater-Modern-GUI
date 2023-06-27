@@ -1,0 +1,19 @@
+{
+	"QMainWindow":[
+		{
+			"tittle": "QT Project Creator",
+            "icon":":/images/images/logo.png",
+            "frameless": true,
+            "transluscentBg": true,
+            "shadow":[
+				{
+					"color": "#ff5e01",
+					"blurRadius": 10,
+					"xOffset": 0,
+					"yOffset": 0,
+					"centralWidget": "centralwidget"
+				}
+			]
+		}
+	]
+}
