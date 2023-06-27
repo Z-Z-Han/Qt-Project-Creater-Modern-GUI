@@ -24,7 +24,7 @@ We welcome contributions from the open-source community. If you have any ideas, 
 This project is licensed under the MIT license. See the LICENSE file for more details.
 
 # Contact
-For any inquiries or feedback, please reach out to [Your Name] at [Your Email Address].
+For any inquiries or feedback, please reach out to Spinn at spinncompany@gmail.com.
 
 We appreciate your interest and look forward to your involvement in making the Project a success!
 
