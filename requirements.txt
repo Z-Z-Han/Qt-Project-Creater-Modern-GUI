@@ -1,0 +1,3 @@
+pyside6
+QT-PyQt-PySide-Custom-Widgets
+PySideExtn
