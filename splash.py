@@ -2,19 +2,17 @@
 
 # APP Imports
 import sys
-import os
-########################################################################
-# IMPORT Custom widgets
-from Custom_Widgets import *
-from Custom_Widgets.QAppSettings import QAppSettings
-# INITIALIZE APP SETTINGS
-settings = QSettings()
-########################################################################
 
 # Import user interface file
 # Splash interface
 from ui_splash import *
 from main import MainAppWindow
+
+########################################################################
+# IMPORT Custom widgets
+from Custom_Widgets import *
+from Custom_Widgets.QAppSettings import QAppSettings
+########################################################################
 
 # Global values
 progressBarValue = 0
