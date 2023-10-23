@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interfacenhNlkK.ui'
+## Form generated from reading UI file 'interfaceqGIRNt.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.5.1
 ##
@@ -1105,7 +1105,7 @@ class Ui_MainWindow(object):
         self.scrollArea_2.setWidgetResizable(True)
         self.scrollAreaWidgetContents_2 = QWidget()
         self.scrollAreaWidgetContents_2.setObjectName(u"scrollAreaWidgetContents_2")
-        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 794, 482))
+        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 528, 355))
         self.verticalLayout_12 = QVBoxLayout(self.scrollAreaWidgetContents_2)
         self.verticalLayout_12.setSpacing(0)
         self.verticalLayout_12.setObjectName(u"verticalLayout_12")
@@ -1422,7 +1422,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.mainBodyPages.setCurrentIndex(1)
+        self.mainBodyPages.setCurrentIndex(0)
         self.projectWizardPages.setCurrentIndex(0)
         self.userAccountPages.setCurrentIndex(0)
 
