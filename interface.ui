@@ -633,7 +633,7 @@
        <item alignment="Qt::AlignHCenter">
         <widget class="QCustomQStackedWidget" name="mainBodyPages">
          <property name="currentIndex">
-          <number>1</number>
+          <number>0</number>
          </property>
          <widget class="QWidget" name="homePage">
           <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -2340,8 +2340,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>794</width>
-                <height>482</height>
+                <width>528</width>
+                <height>355</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_12">
