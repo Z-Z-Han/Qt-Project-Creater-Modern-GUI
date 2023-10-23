@@ -1,17 +1,22 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'splashcLIqSY.ui'
+## Form generated from reading UI file 'splashXBHqJG.ui'
 ##
-## Created by: Qt User Interface Compiler version 5.15.5
+## Created by: Qt User Interface Compiler version 6.5.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide2.QtCore import *  # type: ignore
-from PySide2.QtGui import *  # type: ignore
-from PySide2.QtWidgets import *  # type: ignore
-
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QFrame, QLabel, QMainWindow,
+    QProgressBar, QSizePolicy, QVBoxLayout, QWidget)
 import QSS_Resources_rc
 
 class Ui_MainWindow(object):
@@ -55,7 +60,7 @@ class Ui_MainWindow(object):
         self.loadingstatus = QLabel(self.more_info_frame)
         self.loadingstatus.setObjectName(u"loadingstatus")
         font = QFont()
-        font.setFamily(u"Noto Serif Display")
+        font.setFamilies([u"Noto Serif Display"])
         font.setPointSize(15)
         self.loadingstatus.setFont(font)
         self.loadingstatus.setStyleSheet(u"border: none;\n"
@@ -94,7 +99,7 @@ class Ui_MainWindow(object):
         self.app_info = QLabel(self.more_info_frame)
         self.app_info.setObjectName(u"app_info")
         font1 = QFont()
-        font1.setFamily(u"Noto Serif Display")
+        font1.setFamilies([u"Noto Serif Display"])
         self.app_info.setFont(font1)
         self.app_info.setStyleSheet(u"border: none;\n"
 "background-color: transparent;\n"

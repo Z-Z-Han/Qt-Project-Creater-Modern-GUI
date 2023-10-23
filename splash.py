@@ -3,8 +3,6 @@
 # APP Imports
 import sys
 import os
-from PySide6 import QtCore
-
 ########################################################################
 # IMPORT Custom widgets
 from Custom_Widgets import *

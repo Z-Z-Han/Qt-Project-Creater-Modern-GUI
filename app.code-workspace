@@ -2,9 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "../../../../../../../home/spinn/.local/lib/python3.10/site-packages/Custom_Widgets"
 		}
 	],
 	"settings": {}
