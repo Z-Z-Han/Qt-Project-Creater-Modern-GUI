@@ -2,7 +2,7 @@ from splash import SplashWindow
 from main import MainWindow
 
 # import QApplication
-from PySide2.QtWidgets import QApplication
+from PySide6.QtWidgets import QApplication
 # import sys
 import sys
 

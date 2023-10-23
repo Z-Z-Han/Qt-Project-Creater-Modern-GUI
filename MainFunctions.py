@@ -1,7 +1,7 @@
-# Import QtWidget and QtCore from PySide2
-from PySide2 import QtWidgets, QtGui
-# import QMessagebox from PySide2
-from PySide2.QtWidgets import QMessageBox
+# Import QtWidget and QtCore from PySide6
+from PySide6 import QtWidgets, QtGui
+# import QMessagebox from PySide6
+from PySide6.QtWidgets import QMessageBox
 
 import os
 import sys

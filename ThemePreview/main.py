@@ -25,7 +25,8 @@ except ImportError:
 
 ########################################################################
 # IMPORT Custom widgets
-from Custom_Widgets.Widgets import *
+from Custom_Widgets import *
+from Custom_Widgets.QAppSettings import QAppSettings
 # INITIALIZE APP SETTINGS
 settings = QSettings()
 ########################################################################

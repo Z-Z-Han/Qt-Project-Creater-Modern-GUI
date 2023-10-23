@@ -1,22 +1,29 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interfaceoYSSuk.ui'
+## Form generated from reading UI file 'interfacenhNlkK.ui'
 ##
-## Created by: Qt User Interface Compiler version 5.15.8
+## Created by: Qt User Interface Compiler version 6.5.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide2.QtCore import *  # type: ignore
-from PySide2.QtGui import *  # type: ignore
-from PySide2.QtWidgets import *  # type: ignore
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QFrame,
+    QGridLayout, QHBoxLayout, QLabel, QLineEdit,
+    QMainWindow, QProgressBar, QPushButton, QScrollArea,
+    QSizePolicy, QSpacerItem, QVBoxLayout, QWidget)
 
-from Custom_Widgets.Widgets import QCustomStackedWidget
-from Custom_Widgets.Widgets import FormProgressIndicator
-from PySide2extn.RoundProgressBar import roundProgressBar
-from Custom_Widgets.Widgets import QCustomSlideMenu
-
+from Custom_Widgets.QCustomProgressIndicator import QCustomProgressIndicator
+from Custom_Widgets.QCustomQStackedWidget import QCustomQStackedWidget
+from Custom_Widgets.QCustomSlideMenu import QCustomSlideMenu
+from PySideExtn.RoundProgressBar import roundProgressBar
 import QSS_Resources_rc
 
 class Ui_MainWindow(object):
@@ -94,10 +101,9 @@ class Ui_MainWindow(object):
         self.label = QLabel(self.frame_12)
         self.label.setObjectName(u"label")
         font = QFont()
-        font.setFamily(u"Segoe UI")
+        font.setFamilies([u"Segoe UI"])
         font.setPointSize(10)
         font.setBold(True)
-        font.setWeight(75)
         self.label.setFont(font)
         self.label.setAlignment(Qt.AlignCenter)
         self.label.setWordWrap(True)
@@ -181,7 +187,7 @@ class Ui_MainWindow(object):
         self.homeBtn = QPushButton(self.frame_3)
         self.homeBtn.setObjectName(u"homeBtn")
         font1 = QFont()
-        font1.setFamily(u"Segoe UI")
+        font1.setFamilies([u"Segoe UI"])
         self.homeBtn.setFont(font1)
         self.homeBtn.setCursor(QCursor(Qt.PointingHandCursor))
         icon5 = QIcon()
@@ -287,6 +293,7 @@ class Ui_MainWindow(object):
         sizePolicy1.setVerticalStretch(0)
         sizePolicy1.setHeightForWidth(self.mainBodyContainer.sizePolicy().hasHeightForWidth())
         self.mainBodyContainer.setSizePolicy(sizePolicy1)
+        self.mainBodyContainer.setMinimumSize(QSize(960, 502))
         self.horizontalLayout_8 = QHBoxLayout(self.mainBodyContainer)
         self.horizontalLayout_8.setObjectName(u"horizontalLayout_8")
         self.sideMenu = QCustomSlideMenu(self.mainBodyContainer)
@@ -311,7 +318,7 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_8.addWidget(self.sideMenu)
 
-        self.mainBodyPages = QCustomStackedWidget(self.mainBodyContainer)
+        self.mainBodyPages = QCustomQStackedWidget(self.mainBodyContainer)
         self.mainBodyPages.setObjectName(u"mainBodyPages")
         self.homePage = QWidget()
         self.homePage.setObjectName(u"homePage")
@@ -326,7 +333,7 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollAreaWidgetContents = QWidget()
         self.scrollAreaWidgetContents.setObjectName(u"scrollAreaWidgetContents")
-        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 792, 355))
+        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 794, 357))
         self.widget = QWidget(self.scrollAreaWidgetContents)
         self.widget.setObjectName(u"widget")
         self.widget.setGeometry(QRect(290, 20, 411, 301))
@@ -353,7 +360,6 @@ class Ui_MainWindow(object):
         font2 = QFont()
         font2.setPointSize(15)
         font2.setBold(True)
-        font2.setWeight(75)
         self.label_5.setFont(font2)
         self.label_5.setAlignment(Qt.AlignCenter)
         self.label_5.setWordWrap(True)
@@ -419,7 +425,7 @@ class Ui_MainWindow(object):
         self.widget_6.setObjectName(u"widget_6")
         self.verticalLayout_14 = QVBoxLayout(self.widget_6)
         self.verticalLayout_14.setObjectName(u"verticalLayout_14")
-        self.projectGeneratingFormProgress = FormProgressIndicator(self.widget_6)
+        self.projectGeneratingFormProgress = QCustomProgressIndicator(self.widget_6)
         self.projectGeneratingFormProgress.setObjectName(u"projectGeneratingFormProgress")
 
         self.verticalLayout_14.addWidget(self.projectGeneratingFormProgress, 0, Qt.AlignHCenter|Qt.AlignVCenter)
@@ -440,16 +446,15 @@ class Ui_MainWindow(object):
         self.label_16 = QLabel(self.widget_7)
         self.label_16.setObjectName(u"label_16")
         font3 = QFont()
-        font3.setFamily(u"Segoe UI")
+        font3.setFamilies([u"Segoe UI"])
         font3.setPointSize(18)
         font3.setBold(True)
-        font3.setWeight(75)
         self.label_16.setFont(font3)
         self.label_16.setAlignment(Qt.AlignCenter)
 
         self.verticalLayout_15.addWidget(self.label_16)
 
-        self.projectWizardPages = QCustomStackedWidget(self.widget_7)
+        self.projectWizardPages = QCustomQStackedWidget(self.widget_7)
         self.projectWizardPages.setObjectName(u"projectWizardPages")
         self.page = QWidget()
         self.page.setObjectName(u"page")
@@ -467,10 +472,9 @@ class Ui_MainWindow(object):
         self.label_18 = QLabel(self.widget_8)
         self.label_18.setObjectName(u"label_18")
         font4 = QFont()
-        font4.setFamily(u"Segoe UI")
+        font4.setFamilies([u"Segoe UI"])
         font4.setPointSize(15)
         font4.setBold(True)
-        font4.setWeight(75)
         self.label_18.setFont(font4)
 
         self.verticalLayout_16.addWidget(self.label_18, 0, Qt.AlignHCenter)
@@ -515,9 +519,8 @@ class Ui_MainWindow(object):
         self.to_page2 = QPushButton(self.widget_8)
         self.to_page2.setObjectName(u"to_page2")
         font5 = QFont()
-        font5.setFamily(u"Segoe UI")
+        font5.setFamilies([u"Segoe UI"])
         font5.setBold(True)
-        font5.setWeight(75)
         self.to_page2.setFont(font5)
         icon12 = QIcon()
         icon12.addFile(u":/icons/Icons/fast-forward.png", QSize(), QIcon.Normal, QIcon.Off)
@@ -1102,7 +1105,7 @@ class Ui_MainWindow(object):
         self.scrollArea_2.setWidgetResizable(True)
         self.scrollAreaWidgetContents_2 = QWidget()
         self.scrollAreaWidgetContents_2.setObjectName(u"scrollAreaWidgetContents_2")
-        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 551, 410))
+        self.scrollAreaWidgetContents_2.setGeometry(QRect(0, 0, 794, 482))
         self.verticalLayout_12 = QVBoxLayout(self.scrollAreaWidgetContents_2)
         self.verticalLayout_12.setSpacing(0)
         self.verticalLayout_12.setObjectName(u"verticalLayout_12")
@@ -1122,7 +1125,7 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_12.addWidget(self.label_10)
 
-        self.userAccountPages = QCustomStackedWidget(self.widget_3)
+        self.userAccountPages = QCustomQStackedWidget(self.widget_3)
         self.userAccountPages.setObjectName(u"userAccountPages")
         self.userAccountPages.setMinimumSize(QSize(0, 0))
         self.userAccountPages.setMaximumSize(QSize(16777215, 16777215))
@@ -1209,7 +1212,7 @@ class Ui_MainWindow(object):
         self.to_login = QPushButton(self.widget_2)
         self.to_login.setObjectName(u"to_login")
         font6 = QFont()
-        font6.setFamily(u"Segoe UI")
+        font6.setFamilies([u"Segoe UI"])
         font6.setUnderline(True)
         self.to_login.setFont(font6)
 
@@ -1419,7 +1422,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.mainBodyPages.setCurrentIndex(0)
+        self.mainBodyPages.setCurrentIndex(1)
         self.projectWizardPages.setCurrentIndex(0)
         self.userAccountPages.setCurrentIndex(0)
 

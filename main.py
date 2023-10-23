@@ -9,14 +9,14 @@ import os
 import sys
 from importlib import reload
 ########################################################################
-from PySide2.QtGui import QPalette, QColor
 # IMPORT GUI FILE
 from ui_interface import *
 ########################################################################
 
 ########################################################################
 # IMPORT Custom widgets
-from Custom_Widgets.Widgets import *
+from Custom_Widgets import *
+from Custom_Widgets.QAppSettings import QAppSettings
 # INITIALIZE APP SETTINGS
 settings = QSettings()
 ########################################################################

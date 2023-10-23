@@ -105,18 +105,11 @@
             ]
         }
     ],
-    "QStackedWidget":[
+    "QCustomQStackedWidget":[
         {
             "name":"userAccountPages",
             "transitionAnimation":[
                 {
-                    "fade":[
-                        {
-                            "active": true,
-                            "duration":1000,
-                            "easingCurve": "OutBack"
-                        }
-                    ],
                     "slide":[
                         {
                             "active":true,
@@ -143,13 +136,6 @@
             "name":"mainBodyPages",
             "transitionAnimation":[
                 {
-                    "fade":[
-                        {
-                            "active": false,
-                            "duration":1000,
-                            "easingCurve": "OutBack"
-                        }
-                    ],
                     "slide":[
                         {
                             "active":true,

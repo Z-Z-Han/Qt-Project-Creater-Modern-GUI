@@ -3,12 +3,12 @@
 # APP Imports
 import sys
 import os
-from PySide2 import QtCore
-# from PySide2.QtGui import QColor
+from PySide6 import QtCore
 
 ########################################################################
 # IMPORT Custom widgets
-from Custom_Widgets.Widgets import *
+from Custom_Widgets import *
+from Custom_Widgets.QAppSettings import QAppSettings
 # INITIALIZE APP SETTINGS
 settings = QSettings()
 ########################################################################
