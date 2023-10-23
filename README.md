@@ -7,7 +7,7 @@ Join our ongoing project! Create and share modern GUI projects in QT effortlessl
 
 
 # Overview
-The Project Name is an ongoing project aimed at creating a desktop app using QT (PySide). Our goal is to provide a platform that empowers QT developers to effortlessly create and share modern GUI projects.
+The Qt-Project-Creater-Modern-GUI is an ongoing project aimed at creating a desktop app using QT (PySide). Our goal is to provide a platform that empowers QT developers to effortlessly create and share modern GUI projects.
 
 # Features
 - Modern Animated GUI: Elevate the aesthetics and functionality of your QT projects with a visually stunning and dynamic GUI using our Custom Widgets module.
